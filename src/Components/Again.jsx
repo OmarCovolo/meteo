@@ -8,7 +8,7 @@ class Again extends React.Component {
         uao: "uoa"
     }
     componentDidUpdate() {
-        console.log("oeeeeeeee");
+        console.log("");
     }
 
     async componentDidMount() {
