@@ -33,7 +33,7 @@ class Again extends React.Component {
                 { this.state.films.map(film => (
                     <div className="col mb-2 px-1" key={film.imdbID}>
                         <img className="img-fluid" src={film.Poster} alt="movie picture" onClick={() => {
-                            this.setState({uao: "yoooooooooooo"})
+                            this.setState({uao: ""})
                             }
                         }/>
                     </div>)
