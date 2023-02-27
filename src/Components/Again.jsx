@@ -18,7 +18,7 @@ class Again extends React.Component {
                 let data = await response.json();
                 console.log(data.Search);
                 const filmOnly = data.Search.filter(film => film.Type === "movie")
-                console.log("oooo", filmOnly);
+                console.log("", filmOnly);
                 this.setState({films: filmOnly.splice(0,6), loading: false})
                 console.log(this.state.films);
             }
